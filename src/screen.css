@@ -1,0 +1,22 @@
+/* Our CSS file. */
+
+
+#container, .content {
+width: 100%;
+}
+#container-1,#container-2{
+    display: flex;
+    height: 300px;
+}
+#container-2{
+    margin-top: 10px;
+}
+.section-1,.image-section2,.section-2{
+    width: 50%;
+    border:2px solid black;   
+}
+.image-section1{
+    width: 50%;
+    border: 2px solid black;
+    flex-direction: row; 
+}
